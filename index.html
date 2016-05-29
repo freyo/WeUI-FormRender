@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>WeUI formRender</title>
+	<link href="css/weui.css" rel="stylesheet">
+  </head>
+  <body>
+    <textarea id="fb-template"><form-template>
+	<fields>
+		<field class="form-control text-input" label="Text Field" name="text-1464498973759" placeholder="Text here..." type="text" subtype="text"></field>
+		<field class="form-control calendar" label="Date Field" name="date-1464500910280" type="date"></field>
+		<field class="checkbox" label="Checkbox" name="checkbox-1464500900883" type="checkbox"></field>
+		<field class="checkbox-group" label="Checkbox Group" name="checkbox-group-1464498983419" type="checkbox-group">
+			<option value="option-1">Option 1</option>
+			<option value="option-2">Option 2</option>
+		</field>
+		<field class="radio-group" label="Radio Group" name="radio-group-1464498979303" type="radio-group">
+			<option value="option-1">Option 1</option>
+			<option value="option-2">Option 2</option>
+		</field>
+		<field class="form-control text-area" label="Text Area" name="textarea-1464498975030" placeholder="Text here..." type="textarea"></field>
+		<field class="form-control select" label="Select" name="select-1464498976779" type="select">
+			<option value="option-1">Option 1</option>
+			<option value="option-2">Option 2</option>
+		</field>
+		<field class="form-control file-input" label="File Upload" name="file-1464501687926" type="file"></field>
+		<field class="btn btn-default button-input" label="Button" name="button-1464501691010" type="button" subtype="button"></field>
+	</fields>
+</form-template></textarea>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='js/form-render.js'></script>
+<script src="js/index.js"></script>  
+  </body>
+</html>
